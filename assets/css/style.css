@@ -1,202 +1,5 @@
-/* ABOUT [SIMONE] */
-#about-us {
-  padding: 100px 0px;
-  background: #f6f6f6;
-  font-size: 35px;
-  text-align: center;
-}
-.about-us-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+/* IMPOSTAZIONI GENERALI */
 
-.about-us-img {
-  padding-bottom: 60px;
-  text-align: center;
-  justify-content: center;
-}
-.about-us-img h2 {
-  color: black;
-  text-align: center;
-  font-size: 36px;
-  padding: 40px 0px;
-}
-.about-us-img p {
-  text-align: center;
-  font-size: 16px;
-  line-height: 26px;
-  padding: 40px 0px;
-  color: #959595;
-  width: 70%;
-  margin: 0 auto;
-}
-
-span {
-  color: red;
-}
-
-hr {
-  border: 1px solid #959595;
-  align-items: center;
-  width: 150px;
-}
-
-#subscribe {
-  padding: 20vh 0;
-  background: url("../images/subscribe-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.subscribe-text h2 {
-  text-align: center;
-  padding: 40px 0px;
-  text-transform: uppercase;
-  color: white;
-  font-size: 36px;
-}
-
-hr {
-  border: 1px solid white;
-  align-items: center;
-  width: 150px;
-}
-
-.subscribe-text p {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  padding: 25px 0;
-}
-
-#subscribe-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#subscribe-form input {
-  width: 450px;
-  background: #fff;
-  opacity: 0.9;
-  border: none;
-  height: 55px;
-  font-size: 15px;
-  padding: 6px 12px;
-  opacity: 0.9;
-}
-.subscribe-button {
-  font-size: 14px;
-  font-weight: 400px;
-}
-#button-subscribe {
-  width: 212px;
-  height: 65px;
-  border: none;
-  background: #7ec3bb;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-button:hover {
-  background-color: #69a8a1;
-}
-
-/*! SLIDER [BRUNO] */
-
-#slider {
-  margin: 10px;
-}
-
-#slider-title {
-  display: flex;
-  justify-content: space-between;
-  margin-block: 20px;
-}
-
-#slider-box-container {
-  display: flex;
-  gap: 20px;
-  overflow: hidden;
-}
-
-.box-image img {
-  height: 150px;
-  transition: ease 1.2s;
-}
-
-#slider-dots {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  margin-block: 20px;
-  cursor: pointer;
-}
-
-#slider-arrow {
-  cursor: pointer;
-}
-
-#slider-dots div {
-  width: 8px;
-  height: 8px;
-  background-color: gray;
-  border-radius: 50px;
-}
-
-div#slider-dot-1 {
-  background-color: orangered;
-}
-
-/* FOOTER [BRUNO] */
-/*  MENU[GIOVANNI  */
-#menu h2 {
-  text-align: center;
-}
-#menu {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-span {
-  color: red;
-}
-
-#menu > div > div > p {
-  text-align: center;
-  padding: 5em 15em;
-  font-size: small;
-}
-.menu-title-description {
-  position: relative;
-}
-#menu h3 {
-  display: inline-block;
-  position: relative;
-  z-index: 10;
-  background-color: white;
-}
-
-.border-bottom {
-  text-align: right;
-  border-bottom: 2px dotted rgb(157, 152, 152);
-  width: 100%;
-
-  position: absolute;
-  bottom: 23px;
-}
-.price {
-  color: #938463;
-}
-/* [CONTACTS] GIOVANNI */
 @font-face {
   font-family: "myfont";
   src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
@@ -246,6 +49,21 @@ p {
   margin: 0px;
   color: gray;
 }
+
+hr {
+  background-color: #cbc4b5;
+  width: 11vw;
+  height: 0.1rem;
+  border: none;
+  z-index: 1;
+}
+
+span {
+  color: red;
+}
+
+/* HEADER [CRISTIANO] */
+
 #head-img {
   width: 100%;
 }
@@ -303,6 +121,157 @@ li {
   margin-right: 8%;
   margin-top: -85px;
 }
+
+
+/*! SLIDER [BRUNO] */
+
+#slider {
+  margin: 10px;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+#slider-title {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
+}
+
+#slider-box-container {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.box-image img {
+  height: 150px;
+  transition: ease 1.2s;
+}
+
+#slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-block: 20px;
+  cursor: pointer;
+}
+
+#slider-arrow {
+  cursor: pointer;
+}
+
+#slider-dots div {
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  border-radius: 50px;
+}
+
+div#slider-dot-1 {
+  background-color: orangered;
+}
+
+
+/* ABOUT [SIMONE] */
+#about-us {
+  padding: 100px 0px;
+  background: #f6f6f6;
+  font-size: 35px;
+  text-align: center;
+}
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us-img {
+  padding-bottom: 60px;
+  text-align: center;
+  justify-content: center;
+}
+.about-us-img h2 {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  padding: 40px 0px;
+}
+.about-us-img p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 40px 0px;
+  color: #959595;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+#subscribe {
+  padding: 20vh 0;
+  background: url("../images/subscribe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe-text h2 {
+  text-align: center;
+  padding: 40px 0px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+}
+
+
+.subscribe-text p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 25px 0;
+}
+
+#subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe-form input {
+  width: 450px;
+  background: #fff;
+  opacity: 0.9;
+  border: none;
+  height: 55px;
+  font-size: 15px;
+  padding: 6px 12px;
+  opacity: 0.9;
+}
+.subscribe-button {
+  font-size: 14px;
+  font-weight: 400px;
+}
+#button-subscribe {
+  width: 212px;
+  height: 65px;
+  border: none;
+  background: #7ec3bb;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#button-subscribe:hover {
+  background-color: #69a8a1;
+}
+
+/* BLOG [CRISTIANO] */
+
 #blog {
   padding: 20vh 0;
   background: url("../images/blog/blog-bg.jpg");
@@ -416,16 +385,52 @@ article:hover img {
   font-weight: 600;
   font-size: 20px;
 }
-hr {
-  background-color: #cbc4b5;
-  width: 11vw;
-  height: 0.1rem;
-  border: none;
-  z-index: 1;
-}
+
 #info {
   color: white;
 }
 #featured {
   color: #000000;
 }
+
+/*  MENU [GIOVANNI]  */
+
+#menu h2 {
+  text-align: center;
+}
+#menu {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  color: red;
+}
+
+#menu > div > div > p {
+  text-align: center;
+  padding: 5em 15em;
+  font-size: small;
+}
+.menu-title-description {
+  position: relative;
+}
+#menu h3 {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.border-bottom {
+  text-align: right;
+  border-bottom: 2px dotted rgb(157, 152, 152);
+  width: 100%;
+
+  position: absolute;
+  bottom: 23px;
+}
+.price {
+  color: #938463;
+}
+
