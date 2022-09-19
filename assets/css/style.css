@@ -122,7 +122,6 @@ li {
   margin-top: -85px;
 }
 
-
 /*! SLIDER [BRUNO] */
 
 #slider {
@@ -171,7 +170,6 @@ div#slider-dot-1 {
   background-color: orangered;
 }
 
-
 /* ABOUT [SIMONE] */
 #about-us {
   padding: 100px 0px;
@@ -206,7 +204,6 @@ div#slider-dot-1 {
   margin: 0 auto;
 }
 
-
 #subscribe {
   padding: 20vh 0;
   background: url("../images/subscribe-bg.jpg");
@@ -227,7 +224,6 @@ div#slider-dot-1 {
   color: white;
   font-size: 36px;
 }
-
 
 .subscribe-text p {
   text-align: center;
@@ -433,4 +429,3 @@ span {
 .price {
   color: #938463;
 }
-
