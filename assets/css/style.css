@@ -117,9 +117,12 @@ span{
      text-transform: uppercase;
     
     }
-button:hover{
-background-color:#69a8a1; ;
+button:hover {
+background-color:#69a8a1;
+}
+
 /*! SLIDER [BRUNO] */
+
 #slider {
   margin: 10px;
 }
