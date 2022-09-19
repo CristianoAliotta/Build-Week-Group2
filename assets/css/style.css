@@ -73,10 +73,7 @@ hr {
   font-size: 18px;
   padding: 25px 0;
 }
-span {
-  text-transform: lowercase;
-  color: red;
-}
+
 #subscribe-form {
   display: flex;
   justify-content: center;
