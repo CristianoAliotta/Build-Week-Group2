@@ -1,4 +1,8 @@
 /*! SLIDER [BRUNO] */
+#slider {
+    margin: 10px;
+}
+
 #slider-title {
     display: flex;
     justify-content: space-between;
@@ -25,12 +29,12 @@
 
 
 #slider-dots div {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: gray;
     border-radius: 50px;
 }
 
 div#slider-dot-1 {
-    background-color: orange;
+    background-color: orangered;
 }
