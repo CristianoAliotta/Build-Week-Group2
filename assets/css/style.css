@@ -1,46 +1,86 @@
 /*! SLIDER [BRUNO] */
 #slider {
-    margin: 10px;
+  margin: 10px;
 }
 
 #slider-title {
-    display: flex;
-    justify-content: space-between;
-    margin-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
 }
 
 #slider-box-container {
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
 }
 
 .box-image img {
-    height: 150px;
-    transition: ease 1.2s;
+  height: 150px;
+  transition: ease 1.2s;
 }
 
 #slider-dots {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-block: 20px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-block: 20px;
+  cursor: pointer;
 }
 
 #slider-arrow {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #slider-dots div {
-    width: 8px;
-    height: 8px;
-    background-color: gray;
-    border-radius: 50px;
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  border-radius: 50px;
 }
 
 div#slider-dot-1 {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 /* FOOTER [BRUNO] */
+/*  MENU[GIOVANNI  */
+#menu h2 {
+  text-align: center;
+}
+#menu {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  color: red;
+}
+
+#menu > div > div > p {
+  text-align: center;
+  padding: 5em 15em;
+  font-size: small;
+}
+.menu-title-description {
+  position: relative;
+}
+#menu h3 {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.border-bottom {
+  text-align: right;
+  border-bottom: 2px dotted rgb(157, 152, 152);
+  width: 100%;
+
+  position: absolute;
+  bottom: 23px;
+}
+.price {
+  color: #938463;
+}
+/* [CONTACTS] GIOVANNI */
