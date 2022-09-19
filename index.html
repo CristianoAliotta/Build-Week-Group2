@@ -8,53 +8,54 @@
     <title>Restaurant One Page HTML5 Template</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/199573f819.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="container">
-      <header>
-        <!-- CRISTIANO NAVBAR -->
+      <div id="background-image">
+        <img id="head-img" src="./assets/images/header.jpg" alt="zuppetta rossa" />
+      </div>
+      <header id="nav">
+        <img src="./assets/images/logo.png" alt="Restaurant’s" />
         <nav>
-          <div id="nav-logo"></div>
-          <div id="nav-list">
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">MENU</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">CONTACTS</a></li>
+          </ul>
         </nav>
       </header>
-      
+
       <main>
-        <!-- BRUNO SLIDER -->
+        <!--! SLIDER [BRUNO] -->
         <section id="slider">
-          <div>
+          <div id="slider-title">
             <div>
-              <h4></h4>
+              <h4>FEATURED <span>WORKS</span></h4>
             </div>
-            <div id="slider-arrow">
-              <!-- ICONA ARROW (dimensioni fisse) -->
+            <div id="slider-arrow" onclick="turnNextImage()">
+              <i class="fa-solid fa-angle-right"></i>
             </div>
           </div>
           <div id="slider-box-container">
-            <div class="box-image"><img src="#" alt="Cake" /></div>
-            <div class="box-image"><img src="#" alt="Dim-Sum" /></div>
-            <div class="box-image"><img src="#" alt="Main-Course" /></div>
-            <div class="box-image"><img src="#" alt="Crepes" /></div>
-            <div class="box-image"><img src="#" alt="Cake" /></div>
-            <div class="box-image"><img src="#" alt="Dim-Sum" /></div>
-            <div class="box-image"><img src="#" alt="Main-Course" /></div>
-            <div class="box-image"><img src="#" alt="Crepes" /></div>
+            <div class="box-image"><img id="image-1" src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
+            <div class="box-image"><img id="image-2" src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
+            <div class="box-image"><img id="image-3" src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
+            <div class="box-image"><img id="image-4" src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
+            <div class="box-image"><img id="image-5" src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
+            <div class="box-image"><img id="image-6" src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
+            <div class="box-image"><img id="image-7" src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
+            <div class="box-image"><img id="image-8" src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
           </div>
           <div id="slider-dots">
-            <div></div>
-            <div></div>
+            <div id="slider-dot-1" onclick="sliderDotOne()"></div>
+            <div id="slider-dot-2" onclick="sliderDotTwo()"></div>
           </div>
         </section>
-      
+
         <!-- SIMONE ABOUT US -->
         <section id="about-us">
           <div class="about-us-container">
@@ -68,32 +69,179 @@
               </div>
             </div>
         </section>
-      
+
         <!-- CRISTIANO BLOG-->
-        <section id="blog"></section>
-      
+        <section id="blog">
+          <h4>Latest <span class="text_arancione">From</span> the <span class="text_arancione">Blog</span></h4>
+          <hr />
+          <div id="blog_grid">
+            <article class="animazioneIngressoX">
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-1.jpg" alt="blog-img" />
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+            </article>
+
+            <article class="animazioneIngressoX">
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-2.jpg" alt="blog-img" class="zoom" />
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+            </article>
+
+            <article class="animazioneIngressoX">
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-3.jpg" alt="blog-img" />
+              </div>
+            </article>
+
+            <article class="animazioneIngressoX">
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-4.jpg" alt="blog-img" />
+              </div>
+            </article>
+
+            <article class="animazioneIngressoX">
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-5.jpg" alt="blog-img" />
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+            </article>
+
+            <article class="animazioneIngressoX">
+              <div class="blog-img">
+                <img src="./assets/images/blog/blog-img-6.jpg" alt="blog-img" />
+              </div>
+              <div class="whiteSquare"></div>
+              <div class="blog-txt">
+                <h3>
+                  Homestyle <br />
+                  Chicken Pot Pie
+                </h3>
+                <hr />
+                <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+              </div>
+            </article>
+          </div>
+          <div class="button">
+            <button class="animazioneIngresso"><a id="info" href="#">MORE INFO</a></button>
+          </div>
+        </section>
+
         <!-- GIOVANNI MENU -->
         <section id="menu">
           <div>
             <div>
-              <h2>our...</h2>
-              <p>lorem...</p>
+              <h2>our <span>MENU</span> the <span>PRICE</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco
+              </p>
             </div>
             <div>
-              <div>Featured ...</div>
+              <div>FEATURED <span>ON THE WEEK</span></div>
               <div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Pancekes n' Such</h3>
+                    <div class="border-bottom">
+                      <span class="price">$ 25.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Homestyle Chicken Pot Pie</h3>
+                    <div class="border-bottom">
+                      <span class="price">$ 10.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Cereal, Panecillos y Frutas</h3>
+                    <div class="border-bottom">
+                      <span class="price">$ 5.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Meat of Skewers</h3>
+                    <div class="border-bottom">
+                      <span class="price">$15.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Steak whith a Garlic and Parsley Risotto</h3>
+                    <div class="border-bottom">
+                      <span class="price">$75.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-title-description">
+                    <h3>Caesar Salad</h3>
+                    <div class="border-bottom">
+                      <span class="price">$7.00</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                </div>
               </div>
               <button>MORE INFO</button>
             </div>
           </div>
         </section>
-      
+
         <!-- SIMONE SUBSCRIBE -->
         <section id="subscribe">
           <div class="subscribe-text">
@@ -106,21 +254,27 @@
             </div>
           </div>
         </section>
-      
+
+        <<<<<<< HEAD
+        <!-- CONTACTS [GIOVANNI] -->
+        =======
         <!-- GIOVANNI CONTACTS -->
+        >>>>>>> Nav
         <section id="contacts">
-          <h2></h2>
-          <h4>SIGN UP FOR..</h4>
+          <h2>our <span>CONTACT US</span></h2>
+          <h4>SIGN UP FOR <span>EMAIL ALERTS</span></h4>
           <form>
-            <input type="text" />
-            <input type="text" />
-            <textarea name="message" id="message-contact" maxlength="240">Write your message here...</textarea>
+            <input type="text" placeholder="Write your full name here..." />
+            <input type="text" placeholder="Write your email addess here..." />
+            <textarea name="message" id="message-contact" maxlength="240" placeholder="Write you message here"></textarea>
           </form>
-          <button type="submit">SEND YOUR MESSAGE</button>
+          <button type="submit"></button>
         </section>
       </main>
-      
+
+      <<<<<<< HEAD =======
       <!-- BRUNO FOOTER -->
+      >>>>>>> Nav
       <footer>
         <section id="footer">
           <div id="footer_contact-info"></div>
