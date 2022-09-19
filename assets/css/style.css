@@ -1,0 +1,36 @@
+/*! SLIDER [BRUNO] */
+#slider-title {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+#slider-box-container {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.box-image img {
+    height: 150px;
+}
+
+#slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-block: 20px;
+    cursor: pointer;
+}
+
+
+#slider-dots div {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+div#slider-dot-1 {
+    background-color: orange;
+}
