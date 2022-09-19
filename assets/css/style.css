@@ -17,6 +17,7 @@
 
 .box-image img {
     height: 150px;
+    transition: ease 1.5s;
 }
 
 #slider-dots {
@@ -27,6 +28,9 @@
     cursor: pointer;
 }
 
+#slider-arrow {
+    cursor: pointer;
+}
 
 #slider-dots div {
     width: 8px;
@@ -38,3 +42,5 @@
 div#slider-dot-1 {
     background-color: orangered;
 }
+
+/* FOOTER [BRUNO] */

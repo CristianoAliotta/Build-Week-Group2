@@ -34,25 +34,25 @@
         <section id="slider">
           <div id="slider-title">
             <div>
-              <h4>FEATURE <span>WORKS</span></h4>
+              <h4>FEATURED <span>WORKS</span></h4>
             </div>
-            <div id="slider-arrow">
+            <div id="slider-arrow" onclick="turnNextImage()">
               <i class="fa-solid fa-angle-right"></i>
             </div>
           </div>
           <div id="slider-box-container">
-            <div class="box-image"><img src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
-            <div class="box-image"><img src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
+            <div class="box-image"><img id="image-1" src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
+            <div class="box-image"><img id="image-2" src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
+            <div class="box-image"><img id="image-3" src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
+            <div class="box-image"><img id="image-4" src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
+            <div class="box-image"><img id="image-5" src="./assets/images/slider/slider-img-1.jpg" alt="Cake" /></div>
+            <div class="box-image"><img id="image-6" src="./assets/images/slider/slider-img-2.jpg" alt="Dim-Sum" /></div>
+            <div class="box-image"><img id="image-7" src="./assets/images/slider/slider-img-3.jpg" alt="Main-Course" /></div>
+            <div class="box-image"><img id="image-8" src="./assets/images/slider/slider-img-4.jpg" alt="Crepes" /></div>
           </div>
           <div id="slider-dots">
-            <div id="slider-dot-1"></div>
-            <div id="slider-dot-2"></div>
+            <div id="slider-dot-1" onclick="sliderDotOne()"></div>
+            <div id="slider-dot-2" onclick="sliderDotTwo()"></div>
           </div>
         </section>
 
@@ -115,7 +115,7 @@
         </section>
       </main>
 
-      <!-- BRUNO FOOTER -->
+      <!-- ! FOOTER [BRUNO]-->
       <footer>
         <section id="footer">
           <div id="footer_contact-info"></div>
