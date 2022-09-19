@@ -1,123 +1,114 @@
 /* ABOUT [SIMONE] */
-#about-us{
-    padding: 100px 0px;
-    background: #F6F6F6;
-    font-size: 35px;
-    text-align: center;
-  
+#about-us {
+  padding: 100px 0px;
+  background: #f6f6f6;
+  font-size: 35px;
+  text-align: center;
 }
-.about-us-container
-{  
-    display: flex;
-    justify-content: center;
-    width: 100%; 
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.about-us-img{
-    padding-bottom: 60px;
-     text-align: center; 
-     justify-content: center; 
+.about-us-img {
+  padding-bottom: 60px;
+  text-align: center;
+  justify-content: center;
 }
-.about-us-img h2{
-    color: black;
-    text-align: center;
-    font-size: 36px;
-    padding: 40px 0px;
+.about-us-img h2 {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  padding: 40px 0px;
 }
-.about-us-img p{
-    text-align: center;
-    font-size: 16px;
-    line-height: 26px;
-    padding: 40px 0px;
-    color: #959595;
-    width: 70%;
-    margin: 0 auto;   
+.about-us-img p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 40px 0px;
+  color: #959595;
+  width: 70%;
+  margin: 0 auto;
 }
-span{
-    color:red;
+span {
+  color: red;
 }
-hr{
-    border: 1px solid #959595;
-    align-items: center;
-    width: 150px;
-}
-
-#subscribe{
-    padding: 20vh 0;   
-    background: url("../images/subscribe-bg.jpg");  
-    background-repeat: no-repeat;  
-    background-size: cover;  
-    background-attachment: fixed;  
-    display: flex;  
-    flex-direction: column;  
-    position: relative;  
-    width: 100%;
-     height: 100%; 
+hr {
+  border: 1px solid #959595;
+  align-items: center;
+  width: 150px;
 }
 
-.subscribe-text h2{
-    text-align: center;
-    padding: 40px 0px;
-    text-transform: uppercase;
-    color: white;
-    font-size: 36px;
+#subscribe {
+  padding: 20vh 0;
+  background: url("../images/subscribe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-hr{
-    border: 1px solid white;
-    align-items: center;
-    width: 150px;
+.subscribe-text h2 {
+  text-align: center;
+  padding: 40px 0px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
 }
 
-.subscribe-text p{
-    
-    text-align: center;
-    color:white;
-    font-size: 18px;
-    padding: 25px 0;
+hr {
+  border: 1px solid white;
+  align-items: center;
+  width: 150px;
 }
-span{
-    text-transform: lowercase;
-    color: red;
-}
-#subscribe-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-#subscribe-form input{ 
 
-    width: 450px;
-    background: #fff;
-    opacity: 0.9;
-    border: none;
-    height: 55px;
-    font-size: 15px;
-    padding:6px 12px;
-    opacity: 0.9;
-    
-    
+.subscribe-text p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 25px 0;
 }
-.subscribe-button{
-    font-size: 14px;
-    font-weight: 400px;
+span {
+  text-transform: lowercase;
+  color: red;
 }
-.button{
- 
-     width: 212px;
-     height: 65px;
-     border: none;
-     background: #7EC3BB;
-     color: #fff;
-     font-weight: 600;
-     font-size: 16px;
-    cursor: pointer;
-     text-transform: uppercase;
-    
-    }
+#subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe-form input {
+  width: 450px;
+  background: #fff;
+  opacity: 0.9;
+  border: none;
+  height: 55px;
+  font-size: 15px;
+  padding: 6px 12px;
+  opacity: 0.9;
+}
+.subscribe-button {
+  font-size: 14px;
+  font-weight: 400px;
+}
+.button {
+  width: 212px;
+  height: 65px;
+  border: none;
+  background: #7ec3bb;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 button:hover {
-background-color:#69a8a1;
+  background-color: #69a8a1;
 }
 
 /*! SLIDER [BRUNO] */
@@ -435,4 +426,7 @@ hr {
 }
 #info {
   color: white;
+}
+#featured {
+  color: #000000;
 }
