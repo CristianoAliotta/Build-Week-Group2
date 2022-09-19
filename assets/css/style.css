@@ -1,8 +1,14 @@
 /*  MENU[GIOVANNI  */
+
 #menu h2 {
   text-align: center;
+  font-size: 36px;
 }
 #menu {
+  font-family: myfont;
+  /*copiato da body*/
+  font-weight: 400;
+
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -15,7 +21,6 @@ span {
 #menu > div > div > p {
   text-align: center;
   padding: 5em 15em;
-  font-size: small;
 }
 .menu-title-description {
   position: relative;
