@@ -31,9 +31,11 @@
   width: 70%;
   margin: 0 auto;
 }
+
 span {
   color: red;
 }
+
 hr {
   border: 1px solid #959595;
   align-items: center;
@@ -93,7 +95,7 @@ hr {
   font-size: 14px;
   font-weight: 400px;
 }
-.button {
+#button-subscribe {
   width: 212px;
   height: 65px;
   border: none;
