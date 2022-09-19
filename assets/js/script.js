@@ -1,5 +1,5 @@
 let counterImage = 0;
-let slider = 0;
+let slider = 0; 
 
 function turnNextImage() {
     if (counterImage == 0) {
