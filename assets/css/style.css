@@ -86,7 +86,7 @@ header {
   top: 65vh;
 }
 
-#background-image:before {
+#background-image::before {
   content: "";
   position: absolute;
   left: 0;
@@ -94,7 +94,7 @@ header {
   bottom: 0;
   top: 0;
   width: 100%;
-  height: 46.5%;
+  /* height: 46.5%; */
   background: url("../images/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
