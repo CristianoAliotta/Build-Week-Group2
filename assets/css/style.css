@@ -392,20 +392,37 @@ article:hover img {
 
 #menu h2 {
   text-align: center;
+/*  MENU[GIOVANNI  */
+.container-section {
+  margin: 0 150px;
 }
 #menu {
   text-align: left;
   display: flex;
   flex-direction: column;
+  line-height: 55px;
 }
 span {
   color: red;
 }
-
-#menu > div > div > p {
+#menu h2 {
   text-align: center;
-  padding: 5em 15em;
-  font-size: small;
+  font-size: 36px;
+}
+#menu > h2 > span {
+  font-weight: bold;
+}
+#featured-title {
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+#menu > .container-section > div > div > p {
+  text-align: center;
+  padding: 40px 130px 0;
+}
+.menu-item {
+  padding: 20px 0;
 }
 .menu-title-description {
   position: relative;
@@ -415,11 +432,15 @@ span {
   position: relative;
   z-index: 10;
   background-color: white;
+  font-weight: 600;
+  font-size: 20px;
 }
-
+#menu-lis-tdiv {
+  margin-top: 8px;
+}
 .border-bottom {
   text-align: right;
-  border-bottom: 2px dotted rgb(157, 152, 152);
+  border-bottom: 2px dotted rgb(190, 181, 181);
   width: 100%;
 
   position: absolute;
@@ -427,4 +448,11 @@ span {
 }
 .price {
   color: #938463;
+  font-size: 14px;
+}
+/* [CONTACTS] GIOVANNI */
+
+#contacts h2 {
+  text-align: center;
+  font-size: 40px;
 }
