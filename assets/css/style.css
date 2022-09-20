@@ -94,7 +94,6 @@ header {
   bottom: 0;
   top: 0;
   width: 100%;
-  /* height: 46.5%; */
   background: url("../images/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
