@@ -8,9 +8,9 @@ function turnNextImage() {
     } else if (counterImage == 1) {
         slider = 210;
     } else if (counterImage == 2) {
-        slider = 315;
+        slider = 320;
     } else if (counterImage == 3) {
-        slider = 423;
+        slider = 430;
         document.getElementById("slider-dot-1").style.backgroundColor = "gray";
         document.getElementById("slider-dot-2").style.backgroundColor = "orangered";
     } else {
