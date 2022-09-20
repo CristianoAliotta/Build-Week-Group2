@@ -69,6 +69,7 @@ span {
 }
 #background-image {
   height: auto;
+  position: relative;
 }
 
 header {
@@ -86,7 +87,7 @@ header {
   top: 65vh;
 }
 
-#background-image::before {
+#background-image::after {
   content: "";
   position: absolute;
   left: 0;
@@ -94,8 +95,8 @@ header {
   bottom: 0;
   top: 0;
   width: 100%;
-  /* height: 46.5%; */
-  background: url("../images/overlay-pattern.png") #000000;
+  height: 99.5%;
+  background: url(../images/overlay-pattern.png) #000000;
   opacity: 0.3;
 }
 header > nav > ul > li a:hover {
@@ -121,7 +122,6 @@ li {
   margin-inline: auto;
   margin-top: -85px;
   max-width: 1170px;
-  margin
 }
 
 /*! SLIDER [BRUNO] */
@@ -437,4 +437,25 @@ span {
 }
 .price {
   color: #938463;
+}
+
+/* animazioni slide in */
+
+.animazioneIngresso {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.animazioneIngressoX {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.visibile {
+  opacity: 1;
+  transform: translate(0px);
 }
