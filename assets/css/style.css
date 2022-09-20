@@ -397,7 +397,7 @@ article:hover img {
 
 #menu h2 {
   text-align: center;
-/*  MENU[GIOVANNI  */
+}
 .container-section {
   margin: 0 150px;
 }
@@ -467,7 +467,6 @@ span {
 footer {
   text-align: left;
   font-size: 12px;
-  
 }
 
 footer h5 {
@@ -478,7 +477,6 @@ footer h5 {
 #footer {
   display: flex;
   flex-direction: row;
-  
 }
 
 #footer p {
@@ -491,7 +489,6 @@ footer h5 {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 
 #link_follow-us {
   display: flex;
@@ -509,11 +506,10 @@ footer h5 {
   transition: 1s;
 }
 
-#link_follow-us i:hover{
+#link_follow-us i:hover {
   background-color: orangered;
   transition: 1s;
 }
-
 
 /* FOOTER-BOTTOM [BRUNO] */
 
