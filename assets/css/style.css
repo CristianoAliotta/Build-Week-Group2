@@ -436,20 +436,24 @@ article:hover img {
 
 /*  MENU [GIOVANNI]  */
 
-#menu h2 {
-  text-align: center;
-}
 .container-section {
-  margin: 0 150px;
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 #menu {
   text-align: left;
   display: flex;
   flex-direction: column;
+  padding: 70px 0;
   line-height: 55px;
 }
-span {
-  color: red;
+#menu > span {
+  color: #ff4f02;
+}
+
+#menu h2 {
+  text-align: center;
 }
 #menu h2 {
   text-align: center;
@@ -462,8 +466,14 @@ span {
   font-size: 20px;
   padding: 25px 0;
 }
-
-#menu > .container-section > div > div > p {
+#featured-title h4 {
+  text-align: left;
+  color: #000000;
+  padding-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+#menu > .container-section > div > p {
   text-align: center;
   padding: 40px 130px 0;
 }
@@ -478,31 +488,108 @@ span {
   position: relative;
   z-index: 10;
   background-color: white;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 25px;
 }
-#menu-lis-tdiv {
-  margin-top: 8px;
+#menu-list-div {
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 .border-bottom {
   text-align: right;
   border-bottom: 2px dotted rgb(190, 181, 181);
   width: 100%;
-
   position: absolute;
   bottom: 23px;
 }
 .price {
+  bottom: 10p;
   color: #938463;
   font-size: 14px;
+  position: relative;
+  bottom: -15px;
 }
+#menu button {
+  color: #ff4f02;
+  border: 1px solid #ff4f02;
+  font-size: 15px;
+  font-weight: 600;
+
+  padding: 30px 100px;
+  cursor: pointer;
+  background-color: #fff;
+  float: right;
+}
+#menu a {
+  color: #ff4f02;
+}
+
 /* [CONTACTS] GIOVANNI */
+#contacts {
+  padding: 70px 0;
+}
+#form-container {
+  padding: 0 90px;
+  margin: 0 80px;
+}
+#contacts form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
 
 #contacts h2 {
   text-align: center;
   font-size: 40px;
+  padding: 40px 0;
+}
+#contacts h4 {
+  padding: 20px 0;
+  margin-left: -10px;
+
+  color: #000000;
+  align-self: flex-start;
+}
+#contacts .container-section .form-container form {
+  padding-bottom: 20px;
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
+#contacts .container-section .form-container form input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid darkgrey;
+  padding: 5px 0 0 10px;
+}
+#contacts .container-section .form-container form input:focus {
+  outline: 1px solid #7ec3bb;
+}
+
+#contacts .container-section .form-container form textarea {
+  padding: 5px 0 0 10px;
+  height: 140px;
+  width: 100%;
+  color: darkgrey;
+  border: 1px solid darkgrey;
+}
+#contacts form textarea:focus {
+  outline: 1px solid #7ec3bb;
+}
+#contacts button {
+  width: 45%;
+  max-height: 500px;
+  height: 5.5vh;
+  border: none;
+
+  background: #ff4f02;
+  margin-top: 25px;
+}
+#contacts a {
+  padding: 20px;
+  color: #fff;
+}
 /* FOOTER [BRUNO] */
 
 footer {
