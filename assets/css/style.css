@@ -5,13 +5,13 @@
   src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
 }
 body {
-  font-family: myfont;
+  font-family: "myfont";
   font-size: 14px;
   font-weight: 400;
   box-sizing: border-box;
 }
 #container {
-  font-family: myfont;
+  font-family: "myfont";
 }
 h1 {
   font-size: 36px;
@@ -154,11 +154,12 @@ nav#desktop-menu ul li:last-child:hover {
   background-color: white;
   width: 100%;
   left: 0;
-  top: 90px;
+  top: 150px;
   height: 0;
   opacity: 0;
   transition: .4s;
   padding-block: 20px;
+  z-index: 10;
 }
 #mobile-menu a:hover {
   text-decoration: none;
@@ -175,7 +176,7 @@ nav#desktop-menu ul li:last-child:hover {
 
 #slider {
   margin: 10px;
-  max-width: 800px;
+  max-width: 1170px;
   margin-inline: auto;
 }
 
@@ -183,16 +184,16 @@ nav#desktop-menu ul li:last-child:hover {
   display: flex;
   justify-content: space-between;
   margin-block: 20px;
+
 }
 
 #slider-box-container {
   display: flex;
-  gap: 20px;
+  gap: 2%;
   overflow: hidden;
 }
 
 .box-image img {
-  height: 150px;
   transition: ease 1.2s;
 }
 
@@ -206,6 +207,7 @@ nav#desktop-menu ul li:last-child:hover {
 
 #slider-arrow {
   cursor: pointer;
+  z-index: 70;
 }
 
 #slider-dots div {
