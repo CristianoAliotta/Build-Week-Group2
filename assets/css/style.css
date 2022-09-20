@@ -103,12 +103,15 @@ header {
   background: url("../images/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
-header > nav > ul > li a:hover {
-  text-decoration: underline 2px #ff5333;
+
+/* NAVBAR [CRISTIANO] */
+header > nav > ul > li:hover {
+  border-bottom: 3px solid orangered;
 }
 
 nav {
   display: flex;
+  justify-content: right;
 }
 
 ul {
@@ -120,11 +123,6 @@ li {
   margin: 5px;
 }
 
-.fa-bars{
-  color: orangered;
-  font-size: large;
-  display: none;
-}
 
 #nav {
   z-index: 999999;
@@ -134,6 +132,43 @@ li {
   margin-top: -85px;
 }
 
+
+/*! button-hamburger-menu [BRUNO] */
+nav#desktop-menu ul li:last-child {
+  display: none;
+}
+nav#desktop-menu ul li:last-child i {
+  color: orangered;
+  font-size: large;
+  cursor: pointer;
+}
+nav#desktop-menu ul li:last-child:hover {
+  text-decoration: none;
+}
+
+/*! MOBILE-MENU [BRUNO] */
+#mobile-menu {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  top: 90px;
+  height: 0;
+  opacity: 0;
+  transition: .4s;
+  padding-block: 20px;
+}
+#mobile-menu a:hover {
+  text-decoration: none;
+}
+
+#mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 15px;
+  width: 100%;
+}
 /*! SLIDER [BRUNO] */
 
 #slider {
@@ -551,8 +586,11 @@ footer h5 {
   #footer {
     flex-direction: column;
   }
-  nav ul li {
+  nav#desktop-menu ul li {
     display: none;
+  }
+  nav#desktop-menu ul li:last-child {
+    display: inline;
   }
   .fa-bars{
     display: inline;

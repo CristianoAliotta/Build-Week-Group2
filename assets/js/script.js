@@ -1,5 +1,6 @@
 let counterImage = 0;
 let slider = 0; 
+let menuIsOpen = false;
 
 function turnNextImage() {
     if (counterImage == 0) {
@@ -41,4 +42,18 @@ function sliderDotOne() {
 function sliderDotTwo() {
     counterImage = 3;
     turnNextImage();
+}
+
+function openMenu() {
+    if (menuIsOpen == false) {
+        menuIsOpen = true;
+        document.getElementById("mobile-menu").style.opacity = "1";
+        document.getElementById("mobile-menu").style.height = "200px";
+    } else {
+        menuIsOpen = false;
+        document.getElementById("mobile-menu").style.opacity = "0%";
+        document.getElementById("mobile-menu").style.height = "0%";
+
+    }
+    
 }
