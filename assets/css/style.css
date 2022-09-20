@@ -27,13 +27,13 @@ h3 {
 h4 {
   color: white;
   z-index: 1;
-  font-size: 36px;
+  font-size: 18px;
   text-align: center;
   padding-bottom: 1.7rem;
 }
 h5 {
   z-index: 1;
-  font-size: 36px;
+  font-size: 16px;
   text-align: center;
   padding-bottom: 1rem;
   padding-top: 10vh;
@@ -60,6 +60,11 @@ hr {
 
 span {
   color: red;
+}
+
+i {
+  color: gray;
+  font-size: 14px;
 }
 
 /* HEADER [CRISTIANO] */
@@ -428,4 +433,78 @@ span {
 }
 .price {
   color: #938463;
+}
+
+/* FOOTER [BRUNO] */
+
+footer {
+  text-align: left;
+  font-size: 12px;
+  
+}
+
+footer h5 {
+  text-align: left;
+  font-weight: 800;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#footer p {
+  color: black;
+  font-size: 12px;
+}
+
+#footer_photo-stream div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+#link_follow-us {
+  display: flex;
+}
+
+#link_follow-us i {
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(179, 179, 179);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#link_follow-us i:hover{
+  background-color: orangered;
+  transition: 1s;
+}
+
+
+/* FOOTER-BOTTOM [BRUNO] */
+
+#footer-bottom {
+  background-color: rgb(215, 215, 215);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#footer-bottom p {
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#footer-bottom a {
+  color: orangered;
 }
