@@ -396,6 +396,8 @@ article:hover img {
 /*  MENU [GIOVANNI]  */
 
 .container-section {
+  width: 80%;
+  max-width: 1170px;
   margin: 0 auto;
 }
 #menu {
@@ -430,7 +432,7 @@ article:hover img {
   font-size: 20px;
   font-weight: 500;
 }
-#menu > .container-section > div > div > p {
+#menu > .container-section > div > p {
   text-align: center;
   padding: 40px 130px 0;
 }
@@ -463,6 +465,8 @@ article:hover img {
   bottom: 10p;
   color: #938463;
   font-size: 14px;
+  position: relative;
+  bottom: -15px;
 }
 #menu button {
   color: #ff4f02;
@@ -501,31 +505,36 @@ article:hover img {
 }
 #contacts h4 {
   padding: 20px 0;
-  text-align: left;
+  margin-left: -10px;
+
   color: #000000;
+  align-self: flex-start;
 }
 #contacts .container-section .form-container form {
   padding-bottom: 20px;
   max-width: 1060px;
+  margin: 0 auto;
 }
 
 #contacts .container-section .form-container form input {
   height: 40px;
   width: 100%;
   border: 1px solid darkgrey;
+  padding: 5px 0 0 10px;
 }
 #contacts .container-section .form-container form input:focus {
-  border: 1px solid #7ec3bb;
+  outline: 1px solid #7ec3bb;
 }
 
 #contacts .container-section .form-container form textarea {
+  padding: 5px 0 0 10px;
   height: 140px;
   width: 100%;
   color: darkgrey;
   border: 1px solid darkgrey;
 }
 #contacts form textarea:focus {
-  border: 1px solid #7ec3bb;
+  outline: 1px solid #7ec3bb;
 }
 #contacts button {
   width: 45%;
