@@ -104,12 +104,15 @@ header {
   background: url(../images/overlay-pattern.png) #000000;
   opacity: 0.3;
 }
-header > nav > ul > li a:hover {
-  text-decoration: underline 2px #ff5333;
+
+/* NAVBAR [CRISTIANO] */
+header > nav > ul > li:hover {
+  border-bottom: 3px solid orangered;
 }
 
 nav {
   display: flex;
+  justify-content: right;
 }
 
 ul {
@@ -120,6 +123,8 @@ li {
   display: inline;
   margin: 5px;
 }
+
+
 #nav {
   z-index: 999999;
   position: sticky;
@@ -129,6 +134,43 @@ li {
   max-width: 1170px;
 }
 
+
+/*! button-hamburger-menu [BRUNO] */
+nav#desktop-menu ul li:last-child {
+  display: none;
+}
+nav#desktop-menu ul li:last-child i {
+  color: orangered;
+  font-size: large;
+  cursor: pointer;
+}
+nav#desktop-menu ul li:last-child:hover {
+  border-bottom: 0;
+}
+
+/*! MOBILE-MENU [BRUNO] */
+#mobile-menu {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  top: 90px;
+  height: 0;
+  opacity: 0;
+  transition: .4s;
+  padding-block: 20px;
+}
+#mobile-menu a:hover {
+  text-decoration: none;
+}
+
+#mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 15px;
+  width: 100%;
+}
 /*! SLIDER [BRUNO] */
 
 #slider {
@@ -600,17 +642,36 @@ footer {
 footer h5 {
   text-align: left;
   font-weight: 800;
+  padding-block: 30px;
 }
 
 #footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: left;
+  gap: 20px;
+  margin-block: 50px;
+  margin-inline: 10px;
 }
 
 #footer p {
   color: black;
   font-size: 12px;
+  margin-block: 7px;
+  line-height: 16px;
 }
+
+#footer_contact-info div span{
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+#footer_lastest-blog span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 
 #footer_photo-stream div {
   display: flex;
@@ -618,9 +679,22 @@ footer h5 {
   gap: 20px;
 }
 
+#follow-us  {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#follow-us h5 {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
 #link_follow-us {
   display: flex;
+  gap: 20px;
 }
+
 
 #link_follow-us i {
   color: white;
@@ -642,8 +716,7 @@ footer h5 {
 /* FOOTER-BOTTOM [BRUNO] */
 
 #footer-bottom {
-  background-color: rgb(215, 215, 215);
-  height: 50px;
+  background-color: rgb(227, 227, 227);
   display: flex;
   justify-content: center;
   align-items: end;
@@ -654,6 +727,7 @@ footer h5 {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2px;
+  margin-block: 23px;
 }
 
 #footer-bottom a {
@@ -679,4 +753,20 @@ footer h5 {
 .visibile {
   opacity: 1;
   transform: translate(0px);
+}
+
+@media screen and (max-width:768px) {
+  /* FOOTER */
+  #footer {
+    flex-direction: column;
+  }
+  nav#desktop-menu ul li {
+    display: none;
+  }
+  nav#desktop-menu ul li:last-child {
+    display: inline;
+  }
+  .fa-bars{
+    display: inline;
+  }
 }

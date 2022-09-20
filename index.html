@@ -17,14 +17,28 @@
       </div>
       <header id="nav">
         <img src="./assets/images/logo.png" alt="Restaurant’s" />
-        <nav>
+
+        <nav id="desktop-menu">
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">MENU</a></li>
-            <li><a href="">NEWS</a></li>
-            <li><a href="">CONTACTS</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACTS</a></li>
+            <li>
+              <span onclick="openMenu()"><i class="fa-solid fa-bars"></i></span>
+            </li>
+          </ul>
+        </nav>
+        <nav id="mobile-menu">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACTS</a></li>
           </ul>
         </nav>
       </header>
@@ -288,15 +302,15 @@
             <h5>CONTACT <span>INFO</span></h5>
             <div>
               <div><i class="fa-solid fa-phone"></i> <span>Telefone</span></div>
-              <div>(000) 123 456 78- (000) 123 4567 89</div>
+              <p>(000) 123 456 78- (000) 123 4567 89</p>
             </div>
             <div>
               <div><i class="fa-solid fa-location-dot"></i> <span>Address</span></div>
-              <div>2046 Blue Spruce Lane Laurel Canada</div>
+              <p>2046 Blue Spruce Lane Laurel Canada</p>
             </div>
             <div>
               <div><i class="fa-solid fa-envelope"></i> <span>Telefone</span></div>
-              <div>rest@gmail.com - rest@mail.ru</div>
+              <p>rest@gmail.com - rest@mail.ru</p>
             </div>
           </div>
           <div id="footer_lastest-blog">
@@ -326,19 +340,21 @@
                 <a href="#"><img src="./assets/images/photo/photo-4.jpg" alt="Dim-Sum" /></a>
               </div>
             </div>
-            <h5>Follow <span>US</span></h5>
-            <div id="link_follow-us">
-              <div>
-                <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-              </div>
-              <div>
-                <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-              </div>
-              <div>
-                <a href="" target="_blank"><i class="fa-solid fa-basketball"></i></a>
-              </div>
-              <div>
-                <a href="https://www.behance.net/" target="_blank"><i class="fa-brands fa-behance"></i></a>
+            <div id="follow-us">
+              <h5>Follow <span>US</span></h5>
+              <div id="link_follow-us">
+                <div>
+                  <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div>
+                  <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div>
+                  <a href="" target="_blank"><i class="fa-solid fa-basketball"></i></a>
+                </div>
+                <div>
+                  <a href="https://www.behance.net/" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                </div>
               </div>
             </div>
           </div>
