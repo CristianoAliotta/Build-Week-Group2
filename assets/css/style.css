@@ -118,8 +118,10 @@ li {
   z-index: 999999;
   position: sticky;
   top: 0;
-  margin-right: 8%;
+  margin-inline: auto;
   margin-top: -85px;
+  max-width: 1170px;
+  margin
 }
 
 /*! SLIDER [BRUNO] */
@@ -294,12 +296,17 @@ div#slider-dot-1 {
 #blog > hr {
   margin-bottom: 8vh;
 }
+#blog-ms {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 #blog_grid {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* max-width: 1170px; */
 }
 article {
   display: flex;
@@ -355,13 +362,15 @@ article {
 }
 #blog button {
   margin-right: 5%;
-  width: 22.5%;
+  width: 25.5%;
   padding: 2rem;
   cursor: pointer;
   z-index: 1;
   color: white;
   background-color: #ff5333;
   border: none;
+  margin-right: 0;
+  max-width: 292px;
 }
 #blog button:hover {
   border: 1px solid #ff5333;
