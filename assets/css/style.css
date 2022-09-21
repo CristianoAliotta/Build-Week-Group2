@@ -156,7 +156,7 @@ header > nav > ul > li:hover:before {
 }
 
 #nav li:before {
-  animation: underline 0.6s linear;
+  animation: underline 0.4s linear;
 }
 
 @keyframes underline {
@@ -165,7 +165,7 @@ header > nav > ul > li:hover:before {
     width: 0;
   }
   25% {
-    opacity: .5;
+    opacity: 0.5;
     width: 25%;
   }
   50% {
