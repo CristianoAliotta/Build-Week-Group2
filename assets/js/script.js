@@ -49,7 +49,7 @@ function openMenu() {
         menuIsOpen = true;
         document.getElementById("mobile-menu").style.opacity = "1";
         document.getElementById("mobile-menu").style.height = "200px";
-        document.getElementById("mobile-menu").style.top = "100px";
+        document.getElementById("mobile-menu").style.top = "80px";
     } else {
         menuIsOpen = false;
         document.getElementById("mobile-menu").style.opacity = "0%";
