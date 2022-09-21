@@ -108,9 +108,6 @@ header {
 }
 
 /* NAVBAR [CRISTIANO] */
-header > nav > ul > li:hover {
-  border-bottom: 3px solid orangered;
-}
 
 nav {
   display: flex;
@@ -136,6 +133,30 @@ li {
   margin-top: -90px;
   max-width: 1110px;
   transition: 1s;
+}
+header > nav > ul > li:hover:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  height: 2px;
+  background: orangered;
+}
+#nav li {
+  position: relative;
+}
+#nav li:before {
+  animation: underline 0.3s linear;
+}
+@keyframes underline {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
 }
 
 /*! button-hamburger-menu [BRUNO] */
