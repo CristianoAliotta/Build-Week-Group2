@@ -285,6 +285,7 @@ div#slider-dot-1 {
 .about-us-img {
   text-align: center;
   justify-content: center;
+  margin-inline: auto;
 }
 .about-us-container h2 {
   color: black;
