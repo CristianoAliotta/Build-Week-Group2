@@ -1,3 +1,5 @@
+// SLIDER [BRUNO]
+
 let counterImage = 0;
 let slider = 0; 
 let menuIsOpen = false;
@@ -58,4 +60,54 @@ function openMenu() {
 
     }
     
+}
+
+// ACTIVE MENU [BRUNO E CRISTIANO]
+
+let active = document.getElementsByClassName("active"); 
+
+window.onscroll = function() {
+        if ((window.pageYOffset) < 800) { //HOME
+        active[0].id = 'this-active';
+        active[1].removeAttribute('id');
+        active[2].removeAttribute('id');
+        active[3].removeAttribute('id');
+        active[4].removeAttribute('id');
+        active[5].removeAttribute('id');
+        } else if ((window.pageYOffset) < 1500) { //ABOUT US
+        active[0].removeAttribute('id');
+        active[1].id = 'this-active';
+        active[2].removeAttribute('id');
+        active[3].removeAttribute('id');
+        active[4].removeAttribute('id');
+        active[5].removeAttribute('id');
+        } else if ((window.pageYOffset) < 2000) { //BLOG
+        active[0].removeAttribute('id');
+        active[1].removeAttribute('id');
+        active[2].id = 'this-active';
+        active[3].removeAttribute('id');
+        active[4].removeAttribute('id');
+        active[5].removeAttribute('id');
+        }  else if ((window.pageYOffset) < 4045) { //MENU
+        active[0].removeAttribute('id');
+        active[1].removeAttribute('id');
+        active[2].removeAttribute('id');
+        active[3].id = 'this-active';
+        active[4].removeAttribute('id');
+        active[5].removeAttribute('id');
+        } else if ((window.pageYOffset) < 4201) { // NEWS
+        active[0].removeAttribute('id');
+        active[1].removeAttribute('id');
+        active[2].removeAttribute('id');
+        active[3].removeAttribute('id');
+        active[4].id = 'this-active';
+        active[5].removeAttribute('id');
+        } else { //CONTACTS
+        active[0].removeAttribute('id');
+        active[1].removeAttribute('id');
+        active[2].removeAttribute('id');
+        active[3].removeAttribute('id');
+        active[4].removeAttribute('id');
+        active[5].id = 'this-active';
+        }
 }
