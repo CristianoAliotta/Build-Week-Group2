@@ -658,30 +658,30 @@ article:hover img {
 
 footer {
   text-align: left;
-  font-size: 12px;
 }
 
 footer h5 {
   text-align: left;
+  font-size: 1.3rem;
   font-weight: 800;
   padding-block: 30px;
+  margin-bottom: 1.8vh;
 }
 
 #footer {
   display: flex;
   flex-direction: row;
-
-  margin-block: 50px;
-  margin-inline: 10px;
+  margin: 0 auto;
+  justify-content: center;
   padding-inline: 20px;
   height: 40vh;
 }
 
 #footer p {
   color: black;
-  font-size: 12px;
+  font-size: 0.9rem;
   margin-block: 7px;
-  line-height: 16px;
+  line-height: 2.5;
 }
 
 #footer_contact-info {
@@ -690,14 +690,24 @@ footer h5 {
   gap: 15px;
 }
 
+#footer_contact-info h5 {
+  margin-bottom: 0;
+}
+.info-span {
+  font-weight: 500;
+  padding-left: 10px;
+}
 #footer_contact-info div span {
   margin-left: 15px;
-  font-size: 14px;
+  font-size: 1.3rem;
 }
 
 #footer_lastest-blog span {
   font-size: 18px;
   font-weight: 700;
+}
+#footer_lastest-blog p {
+  padding-right: 20px;
 }
 
 #footer_photo-stream div {
@@ -728,8 +738,9 @@ footer h5 {
 
 #link_follow-us i {
   color: white;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
   background-color: rgb(179, 179, 179);
   border-radius: 50px;
   display: flex;
@@ -743,7 +754,7 @@ footer h5 {
   transition: 1s;
 }
 .window {
-  width: 400px;
+  width: 385px;
 }
 
 /* FOOTER-BOTTOM [BRUNO] */
@@ -752,6 +763,7 @@ footer h5 {
   display: flex;
   justify-content: center;
   align-items: end;
+  height: 80px;
 }
 
 #footer-bottom p {
@@ -762,6 +774,7 @@ footer h5 {
   margin-block: 23px;
   padding-inline: 15px;
   text-align: center;
+  font-size: 0.7rem;
 }
 
 #footer-bottom a {
@@ -803,7 +816,7 @@ footer h5 {
     height: inherit;
   }
   #blog button {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-inline: auto;
   }
 
@@ -846,7 +859,7 @@ footer h5 {
     width: 90%;
   }
   /* BLOG */
-  
+
   .visibile {
     display: flex;
     flex-direction: column;
