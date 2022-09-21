@@ -744,11 +744,10 @@ footer h5 {
 }
 .window {
   width: 400px;
-  height: 300px;
 }
 
 /* FOOTER-BOTTOM [BRUNO] */
-fo #footer-bottom {
+#footer-bottom {
   background-color: rgb(227, 227, 227);
   display: flex;
   justify-content: center;
@@ -792,6 +791,18 @@ fo #footer-bottom {
 }
 @media screen and (max-width: 990px) {
   /* BLOG */
+  .window {
+    height: inherit;
+  }
+  #footer_photo-stream {
+    height: inherit;
+  }
+  #footer {
+    height: inherit;
+  }
+  #blog {
+    height: inherit;
+  }
   #blog button {
     margin-top: 10px;
     margin-inline: auto;
@@ -836,6 +847,7 @@ fo #footer-bottom {
     width: 90%;
   }
   /* BLOG */
+  
   .visibile {
     display: flex;
     flex-direction: column;
