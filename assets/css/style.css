@@ -880,9 +880,6 @@ footer h5 {
 }
 
 @media screen and (max-width: 768px) {
-  hr {
-    width: 25vw;
-  }
   #about-us hr {
     width: 25vw;
   }
