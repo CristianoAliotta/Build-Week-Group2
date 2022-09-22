@@ -62,52 +62,27 @@ function openMenu() {
     
 }
 
-// ACTIVE MENU [BRUNO E CRISTIANO]
+// ACTIVE MENU DESKTOP
 
-let active = document.getElementsByClassName("active"); 
+let active = document.getElementsByClassName("active");
 
-window.onscroll = function() {
-        if ((window.pageYOffset) < 800) { //HOME
-        active[0].id = 'this-active';
-        active[1].removeAttribute('id');
-        active[2].removeAttribute('id');
-        active[3].removeAttribute('id');
-        active[4].removeAttribute('id');
-        active[5].removeAttribute('id');
-        } else if ((window.pageYOffset) < 1500) { //ABOUT US
-        active[0].removeAttribute('id');
-        active[1].id = 'this-active';
-        active[2].removeAttribute('id');
-        active[3].removeAttribute('id');
-        active[4].removeAttribute('id');
-        active[5].removeAttribute('id');
-        } else if ((window.pageYOffset) < 2000) { //BLOG
-        active[0].removeAttribute('id');
-        active[1].removeAttribute('id');
-        active[2].id = 'this-active';
-        active[3].removeAttribute('id');
-        active[4].removeAttribute('id');
-        active[5].removeAttribute('id');
-        }  else if ((window.pageYOffset) < 4045) { //MENU
-        active[0].removeAttribute('id');
-        active[1].removeAttribute('id');
-        active[2].removeAttribute('id');
-        active[3].id = 'this-active';
-        active[4].removeAttribute('id');
-        active[5].removeAttribute('id');
-        } else if ((window.pageYOffset) < 4201) { // NEWS
-        active[0].removeAttribute('id');
-        active[1].removeAttribute('id');
-        active[2].removeAttribute('id');
-        active[3].removeAttribute('id');
-        active[4].id = 'this-active';
-        active[5].removeAttribute('id');
-        } else { //CONTACTS
-        active[0].removeAttribute('id');
-        active[1].removeAttribute('id');
-        active[2].removeAttribute('id');
-        active[3].removeAttribute('id');
-        active[4].removeAttribute('id');
-        active[5].id = 'this-active';
-        }
-}
+window.onscroll = function () {
+    console.log(window.pageYOffset)
+  for (i = 0; i < active.length; i++) {
+    active[i].removeAttribute("id");
+  }
+  if (window.pageYOffset < 673) { //HOME
+    active[0].id = "this-active";
+  } else if (window.pageYOffset < 1313) { //ABOUT US
+    active[1].id = "this-active";
+  } else if (window.pageYOffset < 2000) { //BLOG
+    active[2].id = "this-active";
+  } else if (window.pageYOffset < 4107) { //MENU
+    active[3].id = "this-active";
+  } else if (window.pageYOffset < 4776) { // NEWS
+    active[4].id = "this-active";
+  } else {  //CONTACTS
+    active[5].id = "this-active";
+    active[5].style.animation = "underline 0.4s linear";
+  }
+};
