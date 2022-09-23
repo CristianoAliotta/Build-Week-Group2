@@ -67,7 +67,6 @@ function openMenu() {
 let active = document.getElementsByClassName("active");
 
 window.onscroll = function () {
-    console.log(window.pageYOffset)
   for (i = 0; i < active.length; i++) {
     active[i].removeAttribute("id");
   }
