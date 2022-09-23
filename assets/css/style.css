@@ -780,6 +780,7 @@ footer h5 {
 
 #link_follow-us i:hover {
   background-color: orangered;
+  border: 2px solid orangered;
   transition: 1s;
 }
 .window {
