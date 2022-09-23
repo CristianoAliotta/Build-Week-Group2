@@ -767,8 +767,8 @@ footer h5 {
 
 #link_follow-us i {
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   font-size: 1.2rem;
   background-color: rgb(179, 179, 179);
   border-radius: 50px;
@@ -778,11 +778,30 @@ footer h5 {
   transition: 1s;
 }
 
+
 #link_follow-us i:hover {
-  background-color: orangered;
-  border: 2px solid orangered;
+  opacity: 0;
+  transition: 2s;
+}
+
+.personal-img {
+  position: relative;
+  top: -52px;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#info-follow-us p.personal-info {
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  font-size: 16px;
   transition: 1s;
 }
+
+
 .window {
   width: 385px;
 }
