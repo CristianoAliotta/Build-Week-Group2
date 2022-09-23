@@ -583,6 +583,12 @@ article:hover img {
   margin-top: 80px;
   margin-bottom: 30px;
 }
+#cap {
+  width: 30px;
+  position: absolute;
+  bottom: 17px;
+  right: 23px;
+}
 .border-bottom {
   text-align: right;
   border-bottom: 2px dotted rgb(190, 181, 181);
