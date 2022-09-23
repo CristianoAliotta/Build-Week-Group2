@@ -2,7 +2,6 @@
 
 let counterImage = 0;
 let slider = 0; 
-let menuIsOpen = false;
 
 function turnNextImage() {
     if (counterImage == 0) {
@@ -46,6 +45,8 @@ function sliderDotTwo() {
     turnNextImage();
 }
 
+let menuIsOpen = false;
+
 function openMenu() {
     if (menuIsOpen == false) {
         menuIsOpen = true;
@@ -85,3 +86,19 @@ window.onscroll = function () {
     active[5].style.animation = "underline 0.4s linear";
   }
 };
+
+
+let foundEasterEgg = false;
+
+function easterEgg() {
+  if (foundEasterEgg == false) {
+  document.getElementById("easter-egg").style.opacity = "1";
+  document.getElementById("easter-egg").style.transform = "scale(1000%)";
+  foundEasterEgg = true;
+} else {
+  document.getElementById("easter-egg").style.opacity = "0";
+  document.getElementById("easter-egg").style.transform = "scale(120%)";
+  foundEasterEgg = false;
+}
+
+}

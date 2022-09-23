@@ -783,6 +783,13 @@ footer h5 {
   transition: 2s;
 }
 
+#easter-egg {
+  position: relative;
+  z-index: 100;
+  opacity: 0;
+  transition: 3s;
+}
+
 .personal-img {
   position: relative;
   top: -52px;
@@ -791,6 +798,8 @@ footer h5 {
   height: 50px;
   border-radius: 50px;
 }
+
+
 #info-follow-us p.personal-info {
   position: relative;
   top: -50px;
