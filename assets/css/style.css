@@ -882,6 +882,25 @@ footer h5 {
   opacity: 1;
   transform: translate(0px);
 }
+
+/* TO TOP */
+
+#to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0.48);
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 9999999;
+}
+#to-top i {
+  font-size: 40px;
+}
+#to-top i:hover {
+  color: orangered;
+  transition: .5s;
+}
 @keyframes underline {
   0% {
     opacity: 0;
