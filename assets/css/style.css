@@ -269,12 +269,16 @@ div#slider-dot-1 {
   justify-content: center;
   margin-inline: auto;
 }
+
 .about-us-container h2 {
   color: black;
   text-align: center;
   font-size: 36px;
   padding: 40px 0 20px 0px;
   font-weight: 500;
+}
+.lega:hover {
+  color: #0c8000;
 }
 #about-us hr {
   width: 15vw;
@@ -296,100 +300,11 @@ div#slider-dot-1 {
   padding-right: 50px;
 }
 
-#subscribe {
-  padding: 20vh 0;
-  background: url("../images/subscribe-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  min-height: 10vh;
-}
-#subscribe::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/overlay-pattern.png) #000000;
-  opacity: 0.3;
-}
-.subscribe-text hr {
-  margin-bottom: 1vh;
-}
-.subscribe-text h2 {
-  position: relative;
-  text-align: center;
-  padding: 40px 0px;
-  text-transform: uppercase;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 500px;
-  z-index: 50;
-}
-
-.subscribe-text > h2 > span {
-  text-transform: lowercase;
-  color: #ff530a;
-  font-weight: 600px;
-}
-.subscribe-text p {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  padding: 25px 0;
-  position: relative;
-  z-index: 50;
-}
-
-#subscribe-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#subscribe-form input {
-  width: 450px;
-  background: #fff;
-  opacity: 0.9;
-  border: none;
-  height: 55px;
-  font-size: 15px;
-  padding: 6px 12px;
-  opacity: 0.9;
-}
-.subscribe-button {
-  font-size: 14px;
-  font-weight: 400px;
-}
-#button-subscribe {
-  width: 212px;
-  height: 65px;
-  border: none;
-  background: #7ec3bb;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 50;
-}
-#button-subscribe:hover {
-  background-color: #69a8a1;
-}
-
 /* BLOG [CRISTIANO] */
 
 #blog {
   padding: 20vh 0;
-  background: url("../images/blog/blog-bg.jpg");
+  background: url("../images/lmao.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -579,6 +494,12 @@ article:hover img {
   margin-top: 80px;
   margin-bottom: 30px;
 }
+#cap {
+  width: 30px;
+  position: absolute;
+  bottom: 17px;
+  right: 23px;
+}
 .border-bottom {
   text-align: right;
   border-bottom: 2px dotted rgb(190, 181, 181);
@@ -614,6 +535,100 @@ article:hover img {
   color: #fff;
 }
 
+#subscribe {
+  padding: 20vh 0;
+  background: url("../images/subscribe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 10vh;
+}
+#subscribe::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/overlay-pattern.png) #000000;
+  opacity: 0.3;
+}
+.subscribe-text hr {
+  margin-bottom: 1vh;
+}
+.subscribe-text h2 {
+  position: relative;
+  text-align: center;
+  padding: 40px 0px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500px;
+  z-index: 50;
+}
+
+.subscribe-text > h2 > span {
+  text-transform: lowercase;
+  color: #ff530a;
+  font-weight: 600px;
+}
+.subscribe-text p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 25px 0;
+  position: relative;
+  z-index: 50;
+}
+
+#subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe-form input {
+  width: 450px;
+  background: #fff;
+  opacity: 0.9;
+  border: none;
+  height: 55px;
+  font-size: 15px;
+  padding: 6px 12px;
+  opacity: 0.9;
+}
+#subscribe-form input:focus {
+  outline: 1px solid #7ec3bb;
+}
+.subscribe-button {
+  font-size: 14px;
+  font-weight: 400px;
+}
+#button-subscribe {
+  width: 212px;
+  height: 68px;
+  border: none;
+  background: #7ec3bb;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 50;
+}
+#button-subscribe a {
+  color: #fff;
+}
+#button-subscribe:hover {
+  background-color: #69a8a1;
+}
 /* [CONTACTS] GIOVANNI */
 #contacts {
   padding: 70px 0;
@@ -678,6 +693,14 @@ article:hover img {
   background: #ff4f02;
   margin-top: 25px;
   font-weight: 800;
+}
+#contactUsButton:hover {
+  border: 1px solid #ff5333;
+  background-color: transparent;
+  color: #ff5333;
+}
+#contactUsButton a:hover {
+  color: #ff5333;
 }
 #contacts a {
   padding: 20px;
@@ -767,8 +790,8 @@ footer h5 {
 
 #link_follow-us i {
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   font-size: 1.2rem;
   background-color: rgb(179, 179, 179);
   border-radius: 50px;
@@ -779,9 +802,38 @@ footer h5 {
 }
 
 #link_follow-us i:hover {
-  background-color: orangered;
+  opacity: 0;
+  transition: 2s;
+}
+
+#easter-egg {
+  position: relative;
+  z-index: 100;
+  opacity: 0;
+  transition: 3s;
+}
+
+.personal-img {
+  position: relative;
+  top: -52px;
+  z-index: -1;
+  width: 45px;
+  left: 10px;
+  height: 45px;
+  border-radius: 50px;
+}
+#bruno {
+  left: 5px;
+}
+
+#info-follow-us p.personal-info {
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  font-size: 16px;
   transition: 1s;
 }
+
 .window {
   width: 385px;
 }
@@ -829,6 +881,25 @@ footer h5 {
 .visibile {
   opacity: 1;
   transform: translate(0px);
+}
+
+/* TO TOP */
+
+#to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0.48);
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 9999999;
+}
+#to-top i {
+  font-size: 40px;
+}
+#to-top i:hover {
+  color: orangered;
+  transition: .5s;
 }
 @keyframes underline {
   0% {
@@ -883,6 +954,12 @@ footer h5 {
 @media screen and (max-width: 768px) {
   #about-us hr {
     width: 25vw;
+  }
+  #cap {
+    right: 20px;
+  }
+  #dcprice {
+    left: 24px;
   }
   .about-us-container h2 {
     font-size: 1.3rem;
@@ -1024,6 +1101,9 @@ footer h5 {
   }
   #footer_contact-info h5 {
     display: block;
+    width: 100%;
+  }
+  .window {
     width: 100%;
   }
 }
